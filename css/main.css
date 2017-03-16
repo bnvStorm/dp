@@ -1152,7 +1152,8 @@ ul.box_list {
   font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
-  color: #2d9fce; }
+  color: #2d9fce;
+  text-align: center; }
 
 .rent_title {
   font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
