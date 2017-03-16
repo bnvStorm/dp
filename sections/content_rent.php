@@ -11,9 +11,9 @@
                 <div class="input_rent">
                     <span class="input_rent-title">Введите свои данные</span>
                     <div class="input_rent-item">
-                        <li><label class="my__label" for="my_name">ФИО:</label><input name="fio" type="text" class="side_menu_box_field" id="fio" value="ФИО"  size="11" /></li>
-                        <li><label class="my__label" for="my_name">ИИН:</label><input name="iin" type="text" class="side_menu_box_field" id="iin" value="ИИН"  size="11" /></li>
-                        <li><label class="my__label" for="my_name">Телефон:</label><input name="tn" type="text" class="side_menu_box_field"  id="tn" value="Номер телефона"  size="11" /></li>
+                        <li><label class="my__label" for="my_name">ФИО:</label><input name="fio" type="text" class="side_menu_box_field" id="fio" size="11" required placeholder="ФИО" /></li>
+                        <li><label class="my__label" for="my_name">ИИН:</label><input name="iin" type="text" class="side_menu_box_field" id="iin" required placeholder="ИИН"  size="11" /></li>
+                        <li><label class="my__label" for="my_name">Телефон:</label><input name="tn" type="text" class="side_menu_box_field"  id="tn" required placeholder="Номер телефона"  size="11" /></li>
                         <li><label class="my__label" for="my_name">Заезд:</label><input type="date" name="dn" class="side_menu_box_field" /></li>
                         <li><label class="my__label" for="my_name">Выезд:</label><input type="date" name="dk" class="side_menu_box_field"/></li>
                  </div>
