@@ -1378,6 +1378,32 @@ body {
   color: #bd5a35;
   text-decoration: underline; }
 
+.right_house {
+  width: 37%;
+  float: left; }
+
+.house_nhouse {
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+  color: #2d9fce;
+  margin: 10px 0 10px 0; }
+
+.house_pic {
+  width: 270px;
+  height: 250px;
+  background: red; }
+
+.house_text {
+  color: #33c1e3; }
+
+.house_gltext {
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+  color: #2d9fce;
+  margin: 10px 0 10px 0; }
+
 .footer {
   height: 28px;
   width: 940px;
