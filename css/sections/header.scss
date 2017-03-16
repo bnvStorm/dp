@@ -1,0 +1,113 @@
+#header {
+	height:150px;
+	clear:both;
+	background-image:url(../images/index.jpg);
+	background-repeat:no-repeat;
+	background-position: top;
+	margin: 0 auto;
+    position: relative;
+}
+#header_logo {
+	width:170px;
+	height:125px;
+	display: inline-block;
+	text-align: center;
+	width: 320px;
+
+}
+.data{
+	width: 980px;
+    margin: 0 auto;
+
+}
+.modular {
+    text-align: justify;
+}
+.column.default {
+    width: 320px;
+    text-align: left;
+}
+.column {
+    display: inline-block;
+    vertical-align: top;
+}
+.adress, .call{
+width: 320px;
+text-align: left;
+display: inline-block;
+margin: 0 0 0 0;
+}
+.advantages {
+    margin: 21px 0 0 30px;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #009ca4;
+    line-height: 24px;
+    text-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
+}
+#header .location {
+    display: inline-block;
+    margin: 28px 0 0 30px;
+    padding: 2px 30px 1px 0;
+    background: url(../images/location.png) right center no-repeat;
+}
+#header .location a {
+    border-bottom: 1px dashed #0474bb;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #0173ba;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+#header .phone {
+    margin: 21px 30px 0 0;
+    text-align: right;
+}
+#header .booking-button {
+    display: inline-block;
+    float: right;
+    margin: 30px 30px 0 0;
+    padding: 11px 20px 10px 20px;
+    border: 1px solid #ecfbfa;
+    background-color: #28b5bc;
+    background-position: 14px 9px;
+    background-repeat: no-repeat;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px rgba(0, 130, 136, 0.75);
+    &:hover {
+    	background-color: #0069AB;
+    }
+}
+#header .phone .note {
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #969696;
+}
+#header .phone .number {
+    display: inline-block;
+    margin: 0 0 0 3px;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #009ca4;
+    text-decoration: none;
+}
+#header .logo {
+    display: block;
+    width: 157px;
+    height: 102px;
+    margin: 30px auto 0 auto;
+}
+.stick {
+    width: 100%;
+    display: inline-block;
+}
