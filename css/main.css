@@ -58,7 +58,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0; }
+  margin: 0px; }
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -686,9 +686,7 @@ ul#side_menu a:hover {
 
 .logout-btn {
   text-align: center;
-  margin-top: 20px; 
-  color: #fff;
-  }
+  margin-top: 20px; }
   .logout-btn a {
     border: 1px solid #ecfbfa;
     background: #28b5bc;
@@ -704,9 +702,7 @@ ul#side_menu a:hover {
 
 .reg-btn {
   text-align: center;
-  margin: 35px auto 10px auto;
-  color:#fff; 
-}
+  margin: 35px auto 10px auto; }
   .reg-btn a {
     border: 1px solid #ecfbfa;
     background: #28b5bc;
@@ -768,13 +764,9 @@ body {
   color: #666666;
   background: #1e5799;
   background: -moz-linear-gradient(top, #1e5799 25%, #1e5799 25%, #7db9e8 95%, #7db9e8 95%, #7db9e8 100%);
-  /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #1e5799 25%, #1e5799 25%, #7db9e8 95%, #7db9e8 95%, #7db9e8 100%);
-  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #1e5799 25%, #1e5799 25%, #7db9e8 95%, #7db9e8 95%, #7db9e8 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
-  /* IE6-9 */ }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); }
 
 #info {
   width: 164px;
@@ -1160,8 +1152,7 @@ ul.box_list {
   font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
-  color: #2d9fce; 
-text-align: center;}
+  color: #2d9fce; }
 
 .rent_title {
   font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
@@ -1289,8 +1280,7 @@ blockquote, q {
 
 /*End NULL*/
 body {
-  font-family: Tahoma, Verdana, Arial, 'Sans Serif';
-}
+  font-family: Tahoma, Verdana, Arial, 'Sans Serif'; }
 
 .simple-little-table {
   font-family: Arial, Helvetica, sans-serif;
@@ -1431,3 +1421,5 @@ body {
 .footer .left {
   width: 400px;
   float: left; }
+
+/*# sourceMappingURL=main.css.map */
