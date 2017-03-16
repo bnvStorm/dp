@@ -23,14 +23,14 @@
 
           <ul class="home_rent">
 <span class="input_rent-title">Выбирите домик</span>
-                <li><input type="radio" name="rad" value="1"><div class="home_rent-link"><a href="houses.phtml">Домик №1</a></div></li>
-                <li><input type="radio" name="rad" value="2"><div class="home_rent-link"><a href="houses.phtml">Домик №2</a></div></li>
-                <li><input type="radio" name="rad" value="3"><div class="home_rent-link"><a href="houses.phtml">Домик №3</a></div></li>
-                <li><input type="radio" name="rad" value="4"><div class="home_rent-link"><a href="houses.phtml">Домик №4</a></div></li>
-                <li><input type="radio" name="rad" value="5"><div class="home_rent-link"><a href="houses.phtml">Домик №5</a></div></li>
-                <li><input type="radio" name="rad" value="6"><div class="home_rent-link"><a href="houses.phtml">Домик №6</a></div></li>
-                <li><input type="radio" name="rad" value="7"><div class="home_rent-link"><a href="houses.phtml">Домик №7</a></div></li>
-                <li><input type="radio" name="rad" value="8"><div class="home_rent-link"><a href="houses.phtml">Домик №8</a></div></li>
+                <li><input type="radio" name="rad" value="1"><div class="home_rent-link"><a href="houses.php">Домик №1</a></div></li>
+                <li><input type="radio" name="rad" value="2"><div class="home_rent-link"><a href="houses.php">Домик №2</a></div></li>
+                <li><input type="radio" name="rad" value="3"><div class="home_rent-link"><a href="houses.php">Домик №3</a></div></li>
+                <li><input type="radio" name="rad" value="4"><div class="home_rent-link"><a href="houses.php">Домик №4</a></div></li>
+                <li><input type="radio" name="rad" value="5"><div class="home_rent-link"><a href="houses.php">Домик №5</a></div></li>
+                <li><input type="radio" name="rad" value="6"><div class="home_rent-link"><a href="houses.php">Домик №6</a></div></li>
+                <li><input type="radio" name="rad" value="7"><div class="home_rent-link"><a href="houses.php">Домик №7</a></div></li>
+                <li><input type="radio" name="rad" value="8"><div class="home_rent-link"><a href="houses.php">Домик №8</a></div></li>
         </ul>
 </div>
             </div>
