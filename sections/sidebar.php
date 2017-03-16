@@ -10,16 +10,16 @@
     <!--start signup box-->
     <div class="side_menu_box" style="height:40px;">
 <?php
-// Проверяем, пусты ли переменные логина и id пользователя
+// Пусты ли переменные логина и id пользователя
 if (empty($_SESSION['session_username']))
 {
-    // Если пусты, то мы не выводим ссылку
+    // Если пусты, то не выводим ссылку
   echo "<div class=\"reg-btn\"><a href='login.php'>Вход/Регистрация</a></div>";
 }
 else
 {
 
-    // Если не пусты, то мы выводим ссылку
+    // Если не пусты, то выводим ссылку
     echo "<div class=\"sidebar_title-logout\">Вы вошли на сайт, как</div> <div class=\"userlogin\">".$_SESSION['session_username']."</div> <div class=\"logout-btn\"><a href='logout.php'>Выход</a></div>  ";
 }
 ?>
