@@ -18,7 +18,7 @@
 
 
 
-              $query=mysql_query("SELECT * FROM usertbl WHERE username='".$username."'");
+              $query=$pdo->query("SELECT * FROM usertbl WHERE username='".$username."'");
               $numrows=mysql_num_rows($query);
 
               if($numrows==0)
@@ -27,7 +27,7 @@
 			(full_name, email, username,password) 
 			VALUES('$full_name','$email', '$username', '$password')";
 
-                  $result=mysql_query($sql);
+                  $result=$pdo->query($sql);
 
 
                   if($result){
