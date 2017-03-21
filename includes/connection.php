@@ -1,7 +1,10 @@
 
 <?php
 require("constants.php");
-$con = mysql_connect(DB_SERVER,DB_USER, DB_PASS) or die(mysql_error());
-	mysql_select_db(DB_NAME) or die("Cannot select DB");
-	
-	?>
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$opt = [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES   => false,
+];
+$pdo = new PDO($dsn, $user, $pass, $opt);
