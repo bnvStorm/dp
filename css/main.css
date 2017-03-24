@@ -690,15 +690,12 @@ ul#side_menu a:hover {
   .logout-btn a {
     border: 1px solid #ecfbfa;
     background: #28b5bc;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
     color: #fff;
     padding: 7px 12px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
     cursor: pointer; }
-    .logout-btn a:hover {
-      background: #2d9fce; }
 
 .reg-btn {
   text-align: center;
@@ -1403,6 +1400,219 @@ body {
   font-size: 30px;
   color: #2d9fce;
   margin: 10px 0 10px 0; }
+
+.container__rent {
+  position: relative;
+  width: 769px;
+  margin: 0 auto;
+  padding: 0; }
+
+.container__rent::after {
+  content: "\0020";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden; }
+
+body {
+  color: #444;
+  line-height: 1;
+  font: 14px "PT Sans Narrow", sans-serif;
+  webkit-font-smoothing: antialiased;
+  webkit-text-size-adjust: 100%; }
+
+.column__rent, .columns__rent {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.container__rent .eleven.columns__rent {
+  width: 640px; }
+
+.nbcrs-greeting {
+  margin-bottom: 20px; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%; }
+
+input[type='text'], input[type='password'], input[type='email'], textarea, select {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: #777;
+  display: block;
+  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-bottom: 20px;
+  -moz-border-radius: 2px;
+  outline: none;
+  padding: 6px 4px;
+  -webkit-border-radius: 2px;
+  width: 210px; }
+
+select {
+  padding: 0; }
+
+#myform select, .form_block select {
+  background: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  color: #555;
+  display: block;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  height: 28px;
+  margin: 2px 0 5px 0;
+  -moz-border-radius: 3px;
+  padding: 4px;
+  -webkit-border-radius: 3px;
+  width: 120px; }
+
+.form_block select {
+  margin: 2px 0 5px;
+  height: 27px; }
+
+tr:nth-of-type(2n+1) {
+  background: #eee; }
+
+th {
+  background: #333 url(../img/bg_header.png) repeat-x;
+  color: white;
+  font-weight: bold; }
+
+td, th {
+  padding: 8px;
+  text-align: left; }
+
+table.nbcrs_avails td {
+  height: 45px;
+  padding: 2px 5px;
+  border-bottom: 2px solid #fff; }
+
+table.nbcrs_avails td {
+  height: 45px;
+  padding: 2px 5px;
+  vertical-align: middle; }
+
+table.nbcrs_avails td {
+  border-bottom: 1px solid #CDD5DA;
+  background: none repeat scroll 0 0 #FFFFFF; }
+
+table.nbcrs_avails td.nbcrs_avail {
+  width: 40px;
+  padding: 0px;
+  height: 45px;
+  text-align: center; }
+
+table.nbcrs_avails td.nbcrs_avail {
+  background: none repeat scroll 0 0 #FFFFFF; }
+
+table.nbcrs_avails td.weekend {
+  background-color: #F2F6F8; }
+
+div.closed {
+  background: #EF5959; }
+
+table.nbcrs_avails td.nbcrs_avail div {
+  padding: 2px; }
+
+table.nbcrs_avails td.nbcrs_avail div {
+  height: 100%;
+  padding: 0; }
+
+table.nbcrs_avails td.nbcrs_avail span, table.nbcrs_avails td.nbcrs_avail a {
+  width: 100%;
+  line-height: 39px; }
+
+p {
+  margin: 0 0 20px 0; }
+
+td p {
+  margin: 0.5em 0; }
+
+table.nbcrs_avails td.room_name p {
+  overflow: hidden;
+  width: 200px;
+  margin: 0; }
+
+table.nbcrs_avails td.room_name p {
+  margin: 0;
+  overflow: hidden;
+  width: 200px; }
+
+th.date {
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 60px; }
+
+table.nbcrs_avails thead th {
+  height: 60px;
+  padding: 0 5px; }
+
+table.nbcrs_avails th.note {
+  font-weight: normal;
+  font-size: 11px; }
+
+table.nbcrs_avails thead th.date {
+  font-weight: bold; }
+
+th.date span {
+  display: block;
+  text-align: center; }
+
+th.date span.weekday {
+  font-size: 11px;
+  font-weight: bold;
+  white-space: nowrap; }
+
+th.date span.day {
+  font-size: 15px; }
+
+th.date span.month {
+  font-size: 11px;
+  font-weight: normal; }
+
+th.date span.year {
+  display: none; }
+
+table.nbcrs_avails th.date span {
+  display: block;
+  text-align: center; }
+
+table.nbcrs_avails th.date span.year {
+  display: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3b576b;
+  font-weight: normal; }
+
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 10px; }
+
+.nbcrs-greeting h2 {
+  border-bottom: 3px solid #F2F2F2;
+  color: #444444;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  text-transform: uppercase; }
+
+.nbcrs-greeting p {
+  color: #999999;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: none;
+  margin: 0px; }
 
 .footer {
   height: 28px;

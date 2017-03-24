@@ -58,16 +58,16 @@ background-color:#0173BA; /*highlight the background behind the text*/
 	a{
 			border: 1px solid #ecfbfa;
 			background: #28b5bc;
-			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+			//filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
 			color: #fff;
 			padding: 7px 12px;
 			-webkit-border-radius: 4px;
 			-moz-border-radius: 4px;
 			border-radius: 4px;
 			cursor: pointer;
-			&:hover{
-				background: #2d9fce;
-			}
+			//&:hover{
+			//	//background: #2d9fce;
+			//}
 		}
 
 }

@@ -33,7 +33,7 @@
 		<a class="number" href="tel:+73832149101">(383) 214-91-01</a>
 	</div>
 
-<a class="booking-button" href="rent.php">online бронирование</a>
+<a class="booking-button" href="rent.php">Заказать путевку</a>
 	</div>
 
 <div class="stick"></div>

@@ -2,7 +2,7 @@
   <ul id="side_menu">
   
       <li><a href="index.php">Главная страница</a></li>
-	  <li><a href="index.php">Новости</a></li>
+	  <li><a href="test.php">Новости</a></li>
       <li><a href="rent.php">Бронирование</a></li>
 	  <li><a href="contact.php">Контактная информация</a></li>
       <li><a href="basket.php">Корзина</a></li>
