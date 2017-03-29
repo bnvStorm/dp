@@ -13,10 +13,6 @@ body {
 	background: linear-gradient(to bottom, #1e5799 25%,#1e5799 25%,#7db9e8 95%,#7db9e8 95%,#7db9e8 100%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); 
 }
-
-
-
-
 #info {
 	width:164px; /*164 minus padding*/
 	font-family:"Liberation Sans", Arial, Helvetica, sans-serif;
@@ -27,7 +23,7 @@ body {
 #content_body {
 	padding: 0 15px 0 0; /*padding on the right is because the column if floating to the right*/
 	line-height:1.5em;
-	width:920px; /*784px minus padding*/
+	width:930px; /*784px minus padding*/
 	float:right;
 	//display:flex;
 }
@@ -144,7 +140,7 @@ ul.arrows {
 .left_home {
 	width:700px;
 	float:left;
-	margin:30px 0 0 0px;
+	margin:20px 0 0 0px;
 }
 .right_home {
 	width:215px;

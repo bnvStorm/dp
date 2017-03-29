@@ -1,4 +1,6 @@
 <!--start  main content-->
+      </div>  
+
   <div id="content_body">
     <div class="left_home">
       <div class="h1__title">Добро пожаловать на сайт базы отдыха "НЕПТУН"!</div>

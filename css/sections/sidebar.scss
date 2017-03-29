@@ -1,7 +1,7 @@
 /*New_nav*/
 #menu {
     width: 100%;
-    height: 65px;
+    height: 35px;
     margin: 12px 0 0 0;
     background: #0173ba;
 }
@@ -9,36 +9,44 @@
     width: 920px;
     margin: 0 auto;
 }
-#menu .menu__all {
-    display: block;
-    width: 64px;
-    height: 65px;
-    float: right;
-    background: #fff001 url(/img/buttons/menu/all.jpg) center bottom no-repeat;
+#menu .menu_list li {
+    display: inline-block;
+    height: 100%;
+    margin: 0px 0px 0 0px;
+    padding: 0px 15px 0 15px;
+    a {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
 }
-#menu .menu__list {
+}
+
+ul.menu_list{
     margin: 0;
     padding: 0 0 0 0;
     overflow: hidden;
     list-style-type: none;
     text-align: justify;
+
+ a {
+color:#fff;
+padding:6px 15px 6px 15px; /*spacing around the text, top right bottom left*/
+text-decoration:none; /*no underline*/
+font:20px Arial, Helvetica, sans-serif;
+font-weight:bold; 
+letter-spacing:1px; /*space between each letter in the word*/
+display:block; /*make the background go all the way to the edges*/
+}
+}
+ul.menu_list a:hover {
+color:#fff; /*when the mouse is placed on the button change to this colour*/
+background-color:#0081D1; /*highlight the background behind the text*/
 }
 
-#menu .menu__list li {
-    display: inline-block;
-    height: 43px;
-    margin: 0px 0px 0 0px;
-    padding: 22px 15px 0 15px;
-}
-
-p, td, li, input {
-    font-family: 'PT Serif', serif;
-    font-size: 16px;
-    font-weight: normal;
-    color: #303030;
-}
-
-#menu .menu__list li.stick {
+#menu .menu_list li.stick {
     height: 0;
     padding: 0;
 }
