@@ -1,3 +1,55 @@
+/*New_nav*/
+#menu {
+    width: 100%;
+    height: 35px;
+    margin: 12px 0 0 0;
+    background: #0173ba;
+}
+.menu__data {
+    width: 920px;
+    margin: 0 auto;
+}
+#menu .menu_list li {
+    display: inline-block;
+    height: 100%;
+    margin: 0px 0px 0 0px;
+    padding: 0px 15px 0 15px;
+    a {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+}
+
+ul.menu_list{
+    margin: 0;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: justify;
+
+ a {
+color:#fff;
+padding:6px 15px 6px 15px; /*spacing around the text, top right bottom left*/
+text-decoration:none; /*no underline*/
+font:20px Arial, Helvetica, sans-serif;
+font-weight:bold; 
+letter-spacing:1px; /*space between each letter in the word*/
+display:block; /*make the background go all the way to the edges*/
+}
+}
+ul.menu_list a:hover {
+color:#fff; /*when the mouse is placed on the button change to this colour*/
+background-color:#0081D1; /*highlight the background behind the text*/
+}
+
+#menu .menu_list li.stick {
+    height: 0;
+    padding: 0;
+}
 /* Main Layout*/
 .side_menu_box a{
 	text-align: center;
@@ -58,16 +110,16 @@ background-color:#0173BA; /*highlight the background behind the text*/
 	a{
 			border: 1px solid #ecfbfa;
 			background: #28b5bc;
-			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+			//filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
 			color: #fff;
 			padding: 7px 12px;
 			-webkit-border-radius: 4px;
 			-moz-border-radius: 4px;
 			border-radius: 4px;
 			cursor: pointer;
-			&:hover{
-				background: #2d9fce;
-			}
+			//&:hover{
+			//	//background: #2d9fce;
+			//}
 		}
 
 }

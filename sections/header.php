@@ -6,8 +6,6 @@
 </head>
 <body>
 <div class="wrapper">
-<!--   <div id="home_banner"> <a href="#"><img src="images/banner1.png" alt="Banner" width="784" height="233" border="0" /></a>
-  </div> -->
   <!--end home banner-->
   <div id="header">
 <div class="data">
@@ -33,10 +31,11 @@
 		<a class="number" href="tel:+73832149101">(383) 214-91-01</a>
 	</div>
 
-<a class="booking-button" href="rent.php">online бронирование</a>
+<a class="booking-button" href="rent.php">Заказать путевку</a>
 	</div>
 
 <div class="stick"></div>
 </div>
 
+</div>
 </div>

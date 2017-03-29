@@ -2,7 +2,7 @@
     <!--end info box-->
   </div>
   <!--start  main content-->
-  <div id="content_body">
+  <div id="content_basket">
       <div class="order_wrapper">
         <div class="h1__title">Ваш заказ</div>
       <table class="simple-little-table" >
@@ -44,6 +44,5 @@
       </div>
   </div>
   <!--end  main content-->
-  <hr class="clear" />
 </div>
 <!--end wrapper-->
