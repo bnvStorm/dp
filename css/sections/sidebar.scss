@@ -1,3 +1,47 @@
+/*New_nav*/
+#menu {
+    width: 100%;
+    height: 65px;
+    margin: 12px 0 0 0;
+    background: #0173ba;
+}
+.menu__data {
+    width: 920px;
+    margin: 0 auto;
+}
+#menu .menu__all {
+    display: block;
+    width: 64px;
+    height: 65px;
+    float: right;
+    background: #fff001 url(/img/buttons/menu/all.jpg) center bottom no-repeat;
+}
+#menu .menu__list {
+    margin: 0;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: justify;
+}
+
+#menu .menu__list li {
+    display: inline-block;
+    height: 43px;
+    margin: 0px 0px 0 0px;
+    padding: 22px 15px 0 15px;
+}
+
+p, td, li, input {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #303030;
+}
+
+#menu .menu__list li.stick {
+    height: 0;
+    padding: 0;
+}
 /* Main Layout*/
 .side_menu_box a{
 	text-align: center;
