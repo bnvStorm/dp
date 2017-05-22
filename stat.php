@@ -89,10 +89,7 @@ foreach ($houses as $house){
         }
         ?> 
         </div>
-        <div class="form__stat-sumwrite">
-        <span class="form__stat-maintxt">Количество заказов:</span>
 
-        </div>
     </section>  
     <section id="content-tab2">
         <div class="form__stat-sumwrite">
@@ -108,12 +105,12 @@ foreach ($houses as $house){
         ?> 
         </div>
     </section> 
-<!--     <section id="content-tab3">
+    <section id="content-tab3">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
-        <input hidden="true" type="text" name="season" id="season" value="2"> 
+        <input hidden="true" type="text" name="season2" id="season2" value="2"> 
             <?
-        $orders=Order::getSumS($_GET['number_house'],$_GET['season']);
+        $orders=Order::getSumSeason($_GET['number_house'],$_GET['season2']);
         foreach ($orders as $order) {
         ?>
        <span><?=$order->sum?> тг</span>
@@ -122,7 +119,7 @@ foreach ($houses as $house){
         ?> 
         </div>
     </section> 
-    <section id="content-tab4">
+    <!--<section id="content-tab4">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
         <input hidden="true" type="text" name="season" id="season" value="3"> 
