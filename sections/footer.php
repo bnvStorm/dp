@@ -1,4 +1,6 @@
 <!--end wrapper-->
+</div>
+<!-- FOOTER -->
 <footer class="footer">
   <div class="left">&copy; Curvy &amp; Clean</div>
   <div class="right">

@@ -1,0 +1,65 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <h1 id="-jquery-scrollbox-http-wmh-github-io-jquery-scrollbox-build-status-https-travis-ci-org-wmh-jquery-scrollbox-svg-branch-master-https-travis-ci-org-wmh-jquery-scrollbox-"><a href="http://wmh.github.io/jquery-scrollbox/">jQuery Scrollbox</a> <a href="https://travis-ci.org/wmh/jquery-scrollbox"><img src="https://travis-ci.org/wmh/jquery-scrollbox.svg?branch=master" alt="Build Status"></a></h1>
+<p>jQuery Scrollbox is a lightweight plugin that enables you to scroll a list of html elements (text, image, etc...) like a carousel slider or traditional marquee.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Simple and lightweight</li>
+<li>Vertical and horizontal scroll</li>
+<li>Auto play</li>
+<li>Multiple instances on one page</li>
+<li>Pause on hover over</li>
+<li>Useful options to customize your list scrolling</li>
+<li>Prev / Next navigation buttons</li>
+<li>Queue container for advanced usages</li>
+</ul>
+<h2 id="basic-usage">Basic Usage</h2>
+<h3 id="1-include-the-latest-jquery-library-and-jquery-scrollbox-plugin-on-the-page">1. Include the latest jQuery library and jQuery Scrollbox Plugin on the page</h3>
+<pre><code class="lang-html">&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;jquery.scrollbox.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<h3 id="2-create-a-list-of-text-you-want-to-scroll">2. Create a list of text you want to scroll</h3>
+<pre><code class="lang-html">&lt;div id=&quot;demo&quot; class=&quot;scroll-text&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;item 1&lt;/li&gt;
+    &lt;li&gt;item 2&lt;/li&gt;
+    &lt;li&gt;item 3&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+<h3 id="3-style-html-elements-as-below">3. Style html elements as below</h3>
+<p><img src="http://wmh.github.io/jquery-scrollbox/img/wireframe.png" alt="scrollbox elements diagram"></p>
+<h3 id="4-initialization">4. Initialization</h3>
+<pre><code class="lang-js">$(&#39;#demo&#39;).scrollbox();
+</code></pre>
+<h2 id="demos">Demos</h2>
+<p><strong><a href="http://wmh.github.io/jquery-scrollbox/">http://wmh.github.io/jquery-scrollbox/</a></strong></p>
+<h2 id="more-examples">More examples</h2>
+<h3 id="non-infinite-loop">Non-infinite Loop</h3>
+<pre><code class="lang-js">$(&#39;#demo&#39;).scrollbox({
+  infiniteLoop: false,
+  switchAmount: 3
+});
+</code></pre>
+<h3 id="callback-functions">Callback functions</h3>
+<pre><code class="lang-js">$(&#39;#demo&#39;).scrollbox({
+  afterForward: function (data) {
+    console.log(data.currentFirstChild);
+    if (data.switchCount &gt;= 3) {
+      this.trigger(&#39;backward&#39;);
+    }
+  },
+  afterBackward: function (data) {
+    console.log(data);
+  }
+});
+</code></pre>
+<h2 id="license">License</h2>
+<p>jQuery Scrollbox is open-sourced software licensed under the <a href="http://opensource.org/licenses/MIT">MIT license</a></p>
+
+      </body>
+    </html>

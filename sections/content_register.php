@@ -1,6 +1,4 @@
 
-    <!--end info box-->
-  </div>
   <!--start  main content-->
   <div id="content_body">
       <?php require_once("includes/connection.php"); ?>
@@ -18,7 +16,7 @@
 
 
 
-              $query=$pdo->query("SELECT * FROM usertbl WHERE username='".$username."'");
+              $query=mysql_query("SELECT * FROM usertbl WHERE username='".$username."'");
               $numrows=mysql_num_rows($query);
 
               if($numrows==0)
@@ -27,7 +25,7 @@
 			(full_name, email, username,password) 
 			VALUES('$full_name','$email', '$username', '$password')";
 
-                  $result=$pdo->query($sql);
+                  $result=mysql_query($sql);
 
 
                   if($result){
@@ -88,5 +86,3 @@
   </div>
   <!--end  main content-->
   <hr class="clear" />
-</div>
-<!--end wrapper-->

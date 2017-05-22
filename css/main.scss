@@ -12,12 +12,16 @@ $button:#28b5bc;
 @import "_misc/normalize";
 
 // styles
-@import "sections/login.scss";
 @import "sections/header.scss";
 @import "sections/sidebar.scss";
 @import "sections/content/content_index.scss";
 @import "sections/content/content_rent.scss";
 @import "sections/content/content_basket.scss";
-@import "sections/content/content_houses.scss";
+@import "sections/content/content_housesCatalog.scss";
+@import "sections/content/content_house.scss";
+@import "sections/content/content_edit_house.scss";
 @import "sections/content/content_test.scss";
+@import "sections/content/content_admin_login.scss";
+@import "sections/content/content_admin.scss";
+@import "sections/content/stat.scss";
 @import "sections/footer.scss";

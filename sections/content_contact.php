@@ -1,7 +1,4 @@
-
-    <!--end info box-->
-  </div>
-  <!--start  main content-->
+ <!--start  main content-->
   <div id="content_body">
   
       <!--end left home-->
@@ -44,5 +41,3 @@
   </div>
   <!--end  main content-->
   <hr class="clear" />
-</div>
-<!--end wrapper-->

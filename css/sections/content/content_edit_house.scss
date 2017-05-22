@@ -1,0 +1,120 @@
+.edit_description{
+min-width: 99%;
+max-width: 99%;
+height: 570px;
+max-height:570px;
+}
+.edit_price{
+	width: 74px;
+}
+
+.btn-left{
+float: left;
+}
+.btn-right{
+float: right;
+}
+.admin__edit_house-button{
+  display: inline-block;
+  margin: 10px auto 10px auto;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #ecfbfa;
+  background-color: #28b5bc;
+  background-position: 14px 9px;
+  background-repeat: no-repeat;
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px rgba(0, 130, 136, 0.75);
+  &:hover {
+    background-color: #E85F61;//#e2dd76
+  }
+}
+#view{
+  display: inline-block;
+  margin: 10px auto 10px auto;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #ecfbfa;
+  background-color: #28b5bc;
+  background-position: 14px 9px;
+  background-repeat: no-repeat;
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px rgba(0, 130, 136, 0.75);
+  &:hover {
+    background-color: #e2dd76;//#e2dd76
+  }
+}
+.art-article-left{
+  float: left;
+  width: 45%;
+}
+.art-article-right{
+  float: right;
+    width: 55%;
+}
+.art_edit-lbl{
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 150px;
+    display: inline-block;
+    // color: #fff;
+}
+.house__edit-edit{
+  width: 75px;
+}
+.art__edit_season-left{
+  float: left;
+  width: 40%;
+}
+.art__edit_season-right{
+  float: right;
+  width: 60%;
+}
+.art__edit_season-action{
+  margin: 10px 0 0 0;
+}
+.art__edit_season{
+  margin: 7px 0 0 0;  
+}
+.art_edit{
+  margin: 7px 0 0 0; 
+ 
+  
+}
+.art_edit-description{
+  margin:   0px 0 0 0;  
+}
+.btn-main{
+  margin: 10px 0 0 0;
+}
+.cottage_percent-input{
+  display: inline-block;
+  width: 30px;
+}
+.art__edit_season{
+
+}
+.art_edit-title{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 15px auto;
+  color: #0069AB;
+}
+.art_edit-description-title{
+  font-weight: bold;
+  font-size: 1.4rem;
+
+      margin-bottom: 4px;   
+}

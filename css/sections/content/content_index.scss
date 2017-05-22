@@ -13,6 +13,13 @@ body {
 	background: linear-gradient(to bottom, #1e5799 25%,#1e5799 25%,#7db9e8 95%,#7db9e8 95%,#7db9e8 100%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); 
 }
+.h1__title{
+  font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  color:#2d9fce;
+  text-align: center;
+}
 #info {
 	width:164px; /*164 minus padding*/
 	font-family:"Liberation Sans", Arial, Helvetica, sans-serif;
@@ -396,4 +403,24 @@ ul.box_list {
 .left_form,.right_form{
 	float: left;
 	width: 50%;
+}
+
+.bottom_text {
+    position: absolute;
+    width: 237px;
+    height: 40px;
+    top: 164px;
+    margin: 7px;
+    background: #0173BA;
+}
+
+.bottom_text span {
+    font-size: 17px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: -1px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
 }

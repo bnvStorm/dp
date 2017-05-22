@@ -1,0 +1,42 @@
+.house_gltext {
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+  color: #2d9fce;
+  margin: 10px 0 10px 0; }
+
+.cottages .main_news li {
+  width: 145px;
+  height: 220px;
+  float: left;
+  margin: 27px;
+  padding: 10px !important;
+  overflow: visible; }
+
+ul.main_news li {
+  list-style: outside none none;
+  position: relative;
+  padding: 10px 15px;
+  margin-top: 20px;
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  height: 100px; }
+
+.cottages .main_news .news_picture img {
+  margin: 0;
+  width: 145px; }
+
+.cottages_search {
+  margin: 30px 10px !important;
+  padding: 15px !important;
+  border-radius: 5px;
+  border: solid 1px black; }
+
+.more a {
+  text-align: center;
+  text-decoration: none; }
+  .more a:link, .more a :visited, .more a :hover, .more a :active {
+    color: #2d9fce;
+    text-decoration: none; }
+
+/*# sourceMappingURL=content_housesCatalog.css.map */

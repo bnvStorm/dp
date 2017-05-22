@@ -1,0 +1,222 @@
+.house_gltext{
+	font-weight: bold;
+	text-align: left;
+	font-size: 30px;
+	color: #2d9fce;
+	margin: 10px 0 10px 0 ;
+}
+.cottages .main_news li {
+    width: 145px;
+    height: 220px;
+    float: left;
+    margin: 27px;
+    padding: 10px !important;
+    overflow: visible;
+}
+ul.main_news li {
+    list-style: outside none none;
+    position: relative;
+    padding: 10px 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    height: 100px;
+}
+.cottages .main_news .news_picture img {
+    margin: 0;
+    width: 145px;
+    height: 125px;
+}
+.cottages_search {
+    margin: 30px 10px !important;
+    padding: 15px !important;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.mainHouse{
+    // height: 100%;
+}
+.more {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0069AB;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+       color: #009CA4;
+    }
+}
+
+.cottage_title-main{
+    // text-align: center;
+}
+.form__houses{
+  height: 60%;
+  //   // width: 100%;
+  //   //  margin: 30px 10px;
+  //   // padding: 15px;
+  //   border-radius: 5px;
+  //   border: solid 1px black;
+}
+.admin__edit{
+     margin: 10px 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px black;
+
+}
+// .admin__edit-left{
+//   width: 50%;
+// float: left;
+// }
+// .admin__edit-right{
+//     width: 50%;
+//   float: right;
+// }
+.form_house_add__right-input{
+  text-align: center;
+}
+.admin__edit-button{
+  display: inline-block;
+  margin: 10px auto 10px auto;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #ecfbfa;
+  background-color: #28b5bc;
+  background-position: 14px 9px;
+  background-repeat: no-repeat;
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px rgba(0, 130, 136, 0.75);
+  &:hover {
+    background-color: #e85f61;
+  }
+}
+.search-button{
+  display: inline-block;
+  margin: 10px auto 10px auto;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #ecfbfa;
+  background-color: #28b5bc;
+  background-position: 14px 9px;
+  background-repeat: no-repeat;
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px rgba(0, 130, 136, 0.75);
+  &:hover {
+    background-color: #0069ab;
+  }
+}
+.search__txt-main{
+  text-align: center;
+}
+.form_house_add{
+  margin: 30px 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px black;
+    height: 270px;
+}
+.form_house_add__right{
+// display: inline-block;
+width: 40%;
+float: right;
+}
+.form_house_add__left{
+// display: inline-block;
+width: 60%;
+float: left;
+}
+.form_house_add-bottom{
+  
+
+}
+.form_house_add__right-input{
+  display: block;
+  margin: 20px 0px 0px 0px;
+}
+.form_house_add__left-price{
+  display: block;
+  text-align: left;
+  margin: 5px 0 5px 0;
+}
+.form_house_add__left-category{
+    margin: 5px 0 5px 0;
+}
+.form_house_add__left-add_img{
+   display: block;
+  text-align: left;
+  margin: 5px 0 5px 0; 
+}
+.form_house_add-label{
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+    display: inline-block;
+    // color: #fff;
+}
+.form_house_add__left-season{
+      margin: 5px 0 5px 0;
+}
+.cottage_title-left{
+  text-align: right;
+  float: left;
+  width: 70%;
+}
+.cottage_title-right{
+
+  float: right;
+  width: 30%;
+}
+.main_news-item{
+  position: relative;
+}
+.form_house_add__right-add_text textarea{
+background-color: #cbdeed;
+}
+.zero_btn{
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.left_form-input_rent {
+    color: #f6f6f6;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 38px;
+}
+.search__field-category{
+display: inline-block;
+width: 35%;
+}
+.search__field-numberhouse{
+display: inline-block;
+width: 35%;
+}
+.search__field-capacity{
+display: inline-block;
+width: 25%;
+}
+.search_btn{
+  text-align: center;
+  margin: 10 0 0 0;
+}
+.search__txt-main{
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 30 0 30 0;
+}
+.edit_pic{
+      margin-bottom: 4px;
+}

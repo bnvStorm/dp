@@ -1,0 +1,138 @@
+.art-postcontent, .art-postcontent li, .art-postcontent table, .art-postcontent a:visited, .art-postcontent a.visited, .art-postcontent a.hovered {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    margin: 20px;
+}
+.art-postcontent p {
+    margin: 13px 0;
+}
+
+.house_info {
+    border-bottom: solid 1px #8FACB2;
+    border-right: solid 1px #8FACB2;
+    border-left: solid 1px #8FACB2;
+    padding: 15px 0;
+     // margin-bottom: 10px;
+}
+.cottage_discount, .cottage_price {
+    position: relative;
+    left: 0px;
+    padding: 0px !important;
+    font-size: 11px;
+}
+.div_for_payment_link {
+    display: inline;
+}
+
+// .employment{
+//     display: inline-block;
+//     margin-right: 10px;
+//     padding: 2px;
+// }
+.vacant {
+    display: inline-block;
+    background: #00AA00;
+    margin-right: 10px;
+    padding: 2px;
+    color: white;
+}
+
+.occupied {
+    display: inline-block;
+    background: #F03030;
+    padding: 2px;
+    margin-right: 10px;
+    color: white;
+    width: 57px;
+    text-align: center;
+}
+
+.house_info_left-title{
+    margin-left: 10px;
+}
+
+.house__info-goodbtn{
+    display: inline-block;
+    a:link,:active,:visited{
+    background: #ba2828;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 3px;
+    margin: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+    text-shadow: 0 1px 1px black;
+    text-transform: uppercase;
+    text-align: center;
+  &:hover {
+    background-color: #0069AB;
+  }
+}
+}     
+.house__info-badbtn{
+    display: inline-block;
+
+    background: #849596;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 3px;
+    margin: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+    text-shadow: 0 1px 1px black;
+    text-transform: uppercase;
+    text-align: center;
+
+}      
+.house_info_left{
+    // display: inline-block;
+    float: left;
+    width: 30%;
+}
+.house_info_center{
+       width: 30%;
+       display: inline; 
+}
+.house_info_right{
+    float: right;
+    width: 30%;
+    // display: inline-block;
+    text-align: center;
+    
+}
+
+.art-postheader-title-main{
+    margin-top: 15px;
+}
+.art-postheader-title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    line-height: 40px;
+}
+
+.house_rent-title{
+   margin:30px 0 0 0;
+   padding: 30;
+   color: #fff;
+   background-color:#43a8a8;
+   text-align: center;
+    font-size: 22px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+// .house_description-text{
+//     text-align: justify;
+// }
+.house_description{
+    text-align: justify;
+    font-size: 1rem;
+        line-height: 25px;
+}
+.category_txt-easy{
+    color: #57c627;
+}
+.category_txt-elite{
+    color: #efe934;
+}
