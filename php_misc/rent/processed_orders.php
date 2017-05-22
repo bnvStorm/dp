@@ -77,24 +77,28 @@ class Order{
     $conn = null;
     return $list;
   }
-  public static function getSumS($season='') {
+  public static function getSumS($number_house='', $season='') {
     $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
+
 	$number_house = strval($number_house);
 	$season = intval($season);
+
 	$sql = "SET NAMES utf8";
 	$st = $conn->prepare( $sql );
     $st->execute();
 
-	$sql = "SELECT SUM(price) as 'sum' FROM `orders_accepted` WHERE `number_house` = :num_par AND `season` = :season_par ";
+	$sql = "SELECT SUM(price) as 'sum' FROM `orders_accepted` WHERE `number_house` = :num_par AND `season` = :season_par";
     $st = $conn->prepare( $sql );
    	$st->bindValue( ":num_par", $number_house, PDO::PARAM_STR );
    	$st->bindValue( ":season_par", $season, PDO::PARAM_INT );
 	$st->execute();
     $list = array();
+
     while ( $row = $st->fetch() ) {
       $order = new Order( $row );
       $list[] = $order;
     }
+
     $conn = null;
     return $list;
   }
