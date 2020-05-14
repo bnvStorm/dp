@@ -26,7 +26,6 @@ include('sections/sidebar.php');
                   <p class="submit">
                       <input type="submit" name="login" class="button" value="Вход" />
                   </p>
-                  <p class="regtext">У вас нет аккаунта? <a href="admin.php" >Зарегистрироваться!</a>!</p>
               </form>
           </div>
       </div>

@@ -19,8 +19,8 @@ include('sections/sidebar.php');
           <div class="left_form">
             <div class="left_form-input_rent">
               <span class="input_rent-title">Выберите сезон</span>
-              <div class="tabs">    
-                <section id="content-tab">
+   
+
                   <select name="season_choice" id="season_choice" >
 <?
 if ($_GET['testid']==1) {
@@ -45,8 +45,8 @@ $step++;
 }
 ?>
                   </select>
-                </section>
-              </div>
+
+
               <span class="input_rent-title">Введите свои данные</span>
               <div class="input_rent-item">
                 <li>
@@ -64,8 +64,6 @@ $step++;
               <div class="right_form-input_rent">
                 <span class="input_rent-title">Выберите домик</span>
               </div>
-             <div class="tabs">  
-             <section id="content-tab2"> 
               <div class="right_form-house_choice">
                 <select name="house_choice" id="house_choice">
 <?
@@ -86,31 +84,23 @@ $step++;
 }
 }else{?>
  <option selected value="<?=$house->house_id?>" >Домик №<?=$house->number_house?>: <?=$house->category?>, мест: <?=$house->capacity?></option>  
-
- <?
-}
-?>
+<?}?>
                 </select>
-                              </section>
-              </div>
               <div class="right_form-input_rent">
                 <span class="input_rent-title">Дополнительная информация:</span>
               </div>
               <div class="right_form-comment_form">
-                <textarea name="additionally" class="comment_form" maxlength="100"
-></textarea>
+        <textarea name="additionally" class="comment_form" maxlength="100"></textarea>
               </div>
               </div>
-
             </div>
           </div>
           <div class="all_price">
              <input value="<?echo $_GET['season_price'];?>" name="price" type="hidden" class="side_menu_box_field"  id="price" />  
-          
           </div>
           <div class="rent_form-btn">
             <input name="rent_form-btn" type="submit" class="booking-button" value="Заказать путевку">  
-            <!-- </a>--></div>
+          </div>
         </form>
         <?php
          if (!empty($message)) {echo "<p class=\"error\">" . "MESSAGE: ". $message . "</p>

@@ -1,10 +1,5 @@
       <div id="side_menu_containe-admin">  
   <ul id="side_menu">
-
-    <li><a href="admin.php">Main</a></li>
-
-
-    <!-- <li><a href="">Заказы</a></li> -->
         <li class="menu__list"><a href="#">Заказы</a>
           <ul class="menu__drop">
             <li><a href="basket.php" style="

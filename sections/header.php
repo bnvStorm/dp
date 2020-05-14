@@ -3,6 +3,8 @@
 <title></title>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="css/styles-carousel.css"> <!-- подключаем стилевой файл -->
+<link rel="stylesheet" type="text/css" href="../css/site.addons.css"> <!-- подключаем стилевой файл -->
+<link rel="shortcut icon" href="../images/ico/inst.png" type="image/x-icon">
 </head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- подключаем последнюю версию jQuery -->
 <script type="text/javascript" src="js/carousel.js"></script>  <!-- подключаем наш скрипт -->

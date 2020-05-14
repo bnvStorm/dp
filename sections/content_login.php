@@ -74,7 +74,6 @@
                   <p class="submit">
                       <input type="submit" name="login" class="button" value="Вход" />
                   </p>
-                  <p class="regtext">У вас нет аккаунта? <a href="register.php" >Зарегистрироваться!</a>!</p>
               </form>
 
           </div>
