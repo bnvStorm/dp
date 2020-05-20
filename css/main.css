@@ -1735,11 +1735,21 @@ blockquote, q {
   margin: 10px 0 10px 0;
 }
 
+.main_news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .cottages .main_news li {
   width: 145px;
   height: 220px;
   float: left;
-  margin: 27px;
+  margin: 25px;
   padding: 10px !important;
   overflow: visible;
 }
@@ -1762,6 +1772,13 @@ ul.main_news li {
 }
 
 .cottages_search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 30px 10px !important;
   padding: 15px !important;
   border-radius: 5px;
@@ -1924,6 +1941,19 @@ ul.main_news li {
   margin: 0 38px;
 }
 
+.search__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .search__field-category {
   display: inline-block;
   width: 35%;
@@ -1932,6 +1962,9 @@ ul.main_news li {
 .search__field-numberhouse {
   display: inline-block;
   width: 35%;
+}
+.search__field-numberhouse input {
+  margin: 2px;
 }
 
 .search__field-capacity {
@@ -1947,7 +1980,7 @@ ul.main_news li {
 .search__txt-main {
   font-weight: bold;
   font-size: 2rem;
-  margin: 30 0 30 0;
+  margin: 30px 0 29px 0;
 }
 
 .edit_pic {
@@ -2561,6 +2594,12 @@ footer {
   min-height: 100%;
 }
 
+select {
+  background: rgba(30, 87, 153, 0.71);
+  color: #fff;
+  padding: 5px;
+}
+
 .menu__data {
   width: 100%;
   max-width: 920px;
@@ -2719,6 +2758,36 @@ footer {
     position: unset;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .cottages .main_news li {
+    margin: 5px;
+  }
+
+  .search__field {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .search__field-category, .search__field-numberhouse, .search__field-capacity {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .search__field-category select {
+    margin-right: 0 !important;
+  }
+
+  body {
+    background: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

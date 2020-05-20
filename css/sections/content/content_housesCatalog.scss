@@ -5,11 +5,16 @@
 	color: #2d9fce;
 	margin: 10px 0 10px 0 ;
 }
+.main_news{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .cottages .main_news li {
     width: 145px;
     height: 220px;
     float: left;
-    margin: 27px;
+    margin: 25px;
     padding: 10px !important;
     overflow: visible;
 }
@@ -28,6 +33,9 @@ ul.main_news li {
     height: 125px;
 }
 .cottages_search {
+    display: flex;
+    flex-direction: column;
+
     margin: 30px 10px !important;
     padding: 15px !important;
     border-radius: 5px;
@@ -196,6 +204,12 @@ background-color: #cbdeed;
     font-weight: bold;
     margin: 0 38px;
 }
+.search__field{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .search__field-category{
 display: inline-block;
 width: 35%;
@@ -203,6 +217,9 @@ width: 35%;
 .search__field-numberhouse{
 display: inline-block;
 width: 35%;
+input{
+  margin: 2px;
+}
 }
 .search__field-capacity{
 display: inline-block;
@@ -215,7 +232,7 @@ width: 25%;
 .search__txt-main{
   font-weight: bold;
   font-size: 2rem;
-  margin: 30 0 30 0;
+  margin: 30px 0 29px 0;
 }
 .edit_pic{
       margin-bottom: 4px;

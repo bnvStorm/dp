@@ -3,6 +3,11 @@
 	max-width: 940px;
 	min-height: 100%;
 }
+select{
+	background: rgba(30, 87, 153, 0.71);
+	color: #fff;
+	padding: 5px;
+}
 .menu__data{
 	width: 100%;
 	max-width: 920px;
@@ -119,5 +124,25 @@ ul.menu_list{
 		position: unset;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.cottages .main_news li{
+		margin: 5px;
+	}
+	.search__field{
+		flex-direction: column;
+	}
+	.search__field-category,.search__field-numberhouse,.search__field-capacity{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.search__field-category{
+		select{
+			margin-right: 0 !important;
+		}
+	}
+	body{
+		background: none;
 	}
 }
