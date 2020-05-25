@@ -2032,6 +2032,12 @@ ul.main_news li {
 }
 
 .house_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-bottom: solid 1px #8FACB2;
   border-right: solid 1px #8FACB2;
   border-left: solid 1px #8FACB2;
@@ -2108,17 +2114,17 @@ ul.main_news li {
 
 .house_info_left {
   float: left;
-  width: 30%;
+  width: 33%;
 }
 
 .house_info_center {
-  width: 30%;
+  width: 33%;
   display: inline;
 }
 
 .house_info_right {
   float: right;
-  width: 30%;
+  width: 33%;
   text-align: center;
 }
 

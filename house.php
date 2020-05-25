@@ -101,7 +101,7 @@ if ($a){
           </div>
         </div>
           <div class="house_info_right">
-          <div class="house__info-badbtn">Заказать путевку</div>
+          <div class="house__info-badbtn">Заказать</div>
         </div>
       </div>
 <?}else{?>
@@ -120,7 +120,7 @@ if ($a){
           </div>
         </div>
           <div class="house_info_right">
-         <div class="house__info-goodbtn"><a href="rent.php?id=<?=$_GET['id']?>&season=<?=$season->season_id?>&testid=0">Заказать путевку</a></div>
+         <div class="house__info-goodbtn"><a href="rent.php?id=<?=$_GET['id']?>&season=<?=$season->season_id?>&testid=0">Заказать</a></div>
         </div>
       </div>
 <?}?>

@@ -7,6 +7,8 @@
 }
 
 .house_info {
+    display: flex;
+    justify-content: space-between;
     border-bottom: solid 1px #8FACB2;
     border-right: solid 1px #8FACB2;
     border-left: solid 1px #8FACB2;
@@ -88,15 +90,15 @@
 .house_info_left{
     // display: inline-block;
     float: left;
-    width: 30%;
+    width: 33%;
 }
 .house_info_center{
-       width: 30%;
+       width: 33%;
        display: inline; 
 }
 .house_info_right{
     float: right;
-    width: 30%;
+    width: 33%;
     // display: inline-block;
     text-align: center;
     
