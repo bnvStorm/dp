@@ -20,8 +20,8 @@ if (isset($_POST['season_9'])) {$season_9=$_POST['season_9'] ;}
 
 
 // Путь загрузки
-$pathtitle = '/OpenServer/domains/dProject/images/houses/title/';
-$pathfont = '/OpenServer/domains/dProject/images/houses/';
+$pathtitle = '/OpenServer/domains/dp/images/houses/title/';
+$pathfont = '/OpenServer/domains/dp/images/houses/';
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
 	// Загрузка файла
@@ -112,6 +112,6 @@ $sql ="INSERT INTO `images`(house_id,source1,source2,source3,source4) VALUES ('$
     $st = $conn->prepare( $sql );
     $st->execute();
 
-header('Location: http://dproject/house_edit.php?id='.$_GET['id'].'');
+header('Location: http://dp/house_edit.php?id='.$_GET['id'].'');
 
 ?> 

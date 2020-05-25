@@ -8,6 +8,21 @@ select{
 	color: #fff;
 	padding: 5px;
 }
+
+.message{
+	margin-top: 10px;
+	text-align: center;
+	border: 1px solid #000;
+	background: rgba(30, 87, 153, 0.71);
+	color: #fff;
+	width: 100%;
+	max-width: 750px;
+	a{
+		color:#0173BA;
+		font-weight: bold;
+	}
+
+}
 .menu__data{
 	width: 100%;
 	max-width: 920px;

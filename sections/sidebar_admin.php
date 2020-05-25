@@ -21,7 +21,7 @@
 
     </ul>
     <!--start signup box-->
-    <div class="side_menu_box" style="height:40px;">
+    <div class="side_menu_box">
 <?php
 // Проверяем, пусты ли переменные логина и id пользователя
 if (empty($_SESSION['session_username']))

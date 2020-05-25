@@ -73,6 +73,6 @@ $message = "Этот номер телефона уже используется
               $message = "Заполните ВСЕ поля!";
           }
       }
-header('Location: http://dproject/basket.php');
+header('Location: http://dp/basket.php');
    // echo "'$house_id',<br>'$house_id',<br>'$date_rent',<br>'$season_id',<br>'$price',<br>'$phone',<br>'$fnp',<br>'$additionally'";   
 ?>

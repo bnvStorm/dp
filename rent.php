@@ -9,7 +9,10 @@ include('sections/sidebar.php');
 ?>
 
 <!--start  main content-->
-  <div id="content_body">
+  <div class="content_rent" id="content_body">
+    <div class="message">
+      <p>Для выбора просмотра информации о домиках, посетите <a href="housesCatalog.php">каталог</a> </p>
+    </div>
     <div class="rent_wrapper">
       <form  class="rent_form" action="php_misc/rent/rent_action.php" method="POST">
         <div class="rent_title">

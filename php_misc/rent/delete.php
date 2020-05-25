@@ -8,5 +8,5 @@ $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
     $sql = "DELETE FROM `orders` WHERE phone='$phone'";
     $st = $conn->prepare( $sql );
     $st->execute();
-header('Location: http://dproject/basket.php');
+header('Location: http://dp/basket.php');
 ?> 

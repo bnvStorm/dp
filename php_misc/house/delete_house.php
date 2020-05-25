@@ -12,6 +12,6 @@ $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
     $st = $conn->prepare( $sql );
     $st->execute();
     
-header('Location: http://dproject/housesCatalog.php');
+header('Location: http://dp/housesCatalog.php');
 // echo $id;
 ?> 
