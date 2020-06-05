@@ -27,7 +27,7 @@
 
 			<div class="column default">
 				<!--  -->
-				<a class="logo" href="admin.php?id=1">
+				<a class="logo" href="../pages/admin.php?id=1">
 					<img src="../style/images/neptun.png"></a>
 				</div>
 
