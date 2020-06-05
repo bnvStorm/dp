@@ -1,0 +1,83 @@
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map_img {
+  display: block;
+  max-width: 850px;
+  width: 100%;
+}
+
+.dots_container {
+  position: relative;
+}
+.dots_container .house_dots {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../../../style/images/ico/house.png");
+  background-position: 50% 50%;
+  background-size: contain;
+  border-right: none;
+}
+
+.position:nth-child(1) {
+  left: 191px;
+  top: -119px;
+}
+
+.position:nth-child(2) {
+  left: 255px;
+  top: -140px;
+}
+
+.position:nth-child(3) {
+  left: 296px;
+  top: -181px;
+}
+
+.position:nth-child(4) {
+  left: 188px;
+  top: -146px;
+}
+
+.position:nth-child(5) {
+  left: 174px;
+  top: -34px;
+}
+
+.position:nth-child(6) {
+  left: 171px;
+  top: -3px;
+}
+
+.position:nth-child(7) {
+  left: 416px;
+  top: 176px;
+}
+
+.position:nth-child(8) {
+  left: 360px;
+  top: 40px;
+}
+
+.position:nth-child(9) {
+  left: 0px;
+  top: 0px;
+}
+
+@media (max-width: 1023px) {
+  .map {
+    display: none;
+  }
+}
+/*# sourceMappingURL=map.css.map */

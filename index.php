@@ -1,6 +1,6 @@
+<?session_start();?>
 <?php
-include('sections/header.php');
-include('sections/sidebar.php');
+  require('main_connections.php');
 ?>
 <div id="content_body">
     <!-- <div class="left_home"> -->
@@ -13,32 +13,31 @@ include('sections/sidebar.php');
         <div class="bottom_text">
         <span>Лодки и катамараны</span>
       </div>
-          <img src="images/boats.jpg" alt="" />
+          <img src="style/images/boats.jpg" alt="" />
         </div>
         <div class="carousel-block">
                 <div class="bottom_text">
         <span>Магазин и кафе</span>
       </div>
-          <img src="images/cafe.jpg" alt="" />
+          <img src="style/images/cafe.jpg" alt="" />
         </div>
-        <div class="carousel-block">
+<!--         <div class="carousel-block">
                 <div class="bottom_text">
         <span>Русская баня</span>
       </div>
           <img src="images/sauna.jpg" alt="" />
-        </div>
+        </div> -->
         <div class="carousel-block">
                 <div class="bottom_text">
         <span>Дискотека и бар</span>
       </div>
-          <img src="images/disco.jpg" alt="" />
+          <img src="style/images/disco.jpg" alt="" />
         </div>
        </div>
     </div>
    </div>  
-
 <div class="main_text-index">
-  <img src="images/disco.jpg" alt="" />
+  <img src="style/images/disco.jpg" alt="" />
 <p>
     Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Эта переписали оксмокс одна необходимыми речью послушавшись заголовок, выйти города прямо пояс путь переулка знаках языком залетают ему бросил это.
 </p><p>
@@ -57,15 +56,20 @@ include('sections/sidebar.php');
     Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Эта переписали оксмокс одна необходимыми речью послушавшись заголовок, выйти города прямо пояс путь переулка знаках языком залетают ему бросил это.
 </p>
 </div>
-
-
-
-
-
+  <div class="map">
+    <div class="dots_container">
+<?
+$houses=House::getList($_GET['cottage'],$_GET['capacity'],$_GET['house_from']);
+foreach ($houses as $house) {
+?>
+      <a href="pages/house.php?id=<?=$house->house_id?>" class="house_dots position"></a>
+<?
+}
+?>  
+    </div>
+    <img class="map_img" src="style/images/map.jpg" alt="Карта">
+  </div>
   </div>
   <!--end  main content-->
   <hr class="clear" />
-
-
-
-<?include('sections/footer.php');?>
+<?include('modules/footer.php');?>
