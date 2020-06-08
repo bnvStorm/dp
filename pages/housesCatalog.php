@@ -97,7 +97,7 @@ foreach ($houses as $house) {
 if($_SESSION["session_username"]){
   ?>
 <div class="form_house_add">
-<form class="" action="php_misc/house/add_house.php" method="POST" enctype="multipart/form-data">
+<form class="" action="../modules/php_misc/house/add_house.php" method="POST" enctype="multipart/form-data">
 
 <div class="form_house_add__left">
 

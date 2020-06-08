@@ -1,7 +1,7 @@
 <?php
 
 // Путь загрузки
-$path = '/OpenServer/domains/dProject/images/test/';
+$path = '/OpenServer/domains/dProject/style/images/test/';
 
 // Обработка запроса
 if ($_SERVER['REQUEST_METHOD'] == 'POST')

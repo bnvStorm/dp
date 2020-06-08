@@ -1,6 +1,12 @@
 <?php
 //Подключение БД
-require('../misc/config.php');
+// require('../misc/config.php');
+// require('../../modules/event_handler/misc/config.php');
+define( "DB_USERNAME", "root" ); 
+define( "DB_PASSWORD", "" ); 
+define( "DB_DSN", "mysql:host=localhost; dbname=dproject" ); 
+date_default_timezone_set( "Asia/Almaty" );
+
 //Объявляем переменные
 if (isset($_GET['id'])) {$house_id=$_GET['id'] ;}
 if (isset($_POST['edit_description'])) {$description=$_POST['edit_description'] ;}
@@ -20,8 +26,8 @@ if (isset($_POST['season_9'])) {$season_9=$_POST['season_9'] ;}
 
 
 // Путь загрузки
-$pathtitle = '/OpenServer/domains/dp/images/houses/title/';
-$pathfont = '/OpenServer/domains/dp/images/houses/';
+$pathtitle = '/OpenServer/domains/dp/style/images/houses/title/';
+$pathfont = '/OpenServer/domains/dp/style/images/houses/';
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
 	// Загрузка файла
@@ -38,11 +44,11 @@ $image_3=$_FILES['image_3']['name'];
 $image_4=$_FILES['image_4']['name'];
 $img_title=$_FILES['picture']['name'];
 
-$img_source_title="images/houses/$img_title";
-$img_source1="images/houses/$image_1";
-$img_source2="images/houses/$image_2";
-$img_source3="images/houses/$image_3";
-$img_source4="images/houses/$image_4";
+$img_source_title="../style/images/houses/$img_title";
+$img_source1="../style/images/houses/$image_1";
+$img_source2="../style/images/houses/$image_2";
+$img_source3="../style/images/houses/$image_3";
+$img_source4="../style/images/houses/$image_4";
 
 $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
 $sql ="UPDATE houses SET description= :description,number_house=:number_house,capacity=:capacity,category=:category,price=:price,img_source= :img_source_title  WHERE house_id= :house_id";
@@ -112,6 +118,6 @@ $sql ="INSERT INTO `images`(house_id,source1,source2,source3,source4) VALUES ('$
     $st = $conn->prepare( $sql );
     $st->execute();
 
-header('Location: http://dp/house_edit.php?id='.$_GET['id'].'');
+header('Location: http://dp/pages/house_edit.php?id='.$_GET['id'].'');
 
 ?> 

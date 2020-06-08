@@ -4,13 +4,9 @@ if(empty($_SESSION["session_username"])){
 header("Location: /index.php");
     die;
 }
-?>
-<?php
-require('php_misc/misc/config.php');
-require('php_misc/rent/processed_orders.php');
-require('php_misc/house/class_house.php');
-include('sections/header.php');
-include('sections/sidebar.php');
+require('../main_connections.php');
+require('../modules/php_misc/rent/processed_orders.php');
+
 ?>
      <!--start  main content-->
   <div id="content_body">
@@ -242,6 +238,4 @@ foreach ($houses as $house){
       <!--end  main content-->
   </div>
   <hr class="clear" />
-<?
-include('sections/footer.php');
-?>
+<?include('../modules/footer.php');?>

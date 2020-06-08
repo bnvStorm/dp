@@ -1,7 +1,7 @@
 <?php
 if (isset($_GET['fio'])) {$a=$_GET['fio'];}
 $host = 'localhost';  // сервер
-$base = 'dProject';  // имя базы данных
+$base = 'dp';  // имя базы данных
 $user = 'root';  // пользователь
 $pass = '';  // пароль 
 // $a='2';

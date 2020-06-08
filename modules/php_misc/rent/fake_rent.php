@@ -1,6 +1,9 @@
 <?php
 //Подключение БД
-require('../misc/config.php');
+define( "DB_USERNAME", "root" ); 
+define( "DB_PASSWORD", "" ); 
+define( "DB_DSN", "mysql:host=localhost; dbname=dproject" ); 
+date_default_timezone_set( "Asia/Almaty" );
 //Объявляем переменные
 
 $house_id=$_GET['id'];
@@ -48,8 +51,8 @@ $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
            VALUES ('$house_id','$house_id','$date_rent','$season_id','$price','$phone','$fnp','$additionally')";
                $st2 = $conn->prepare( $sql2 );
                $st2->execute();
-
-// header('Location: http://dproject/basket.php');
+               
+header('Location: http://dp/pages/house_edit.php?id='.$_GET['id'].'');
 
 
       ?>

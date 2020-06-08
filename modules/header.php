@@ -21,7 +21,7 @@
 				</div>
 				<div class="location">
 					<!-- php_misc/redirect.php -->
-					<a href="pages/admin_login.php">НСО, с.Боровое, пос. Нептун</a>
+					<a href="../pages/admin_login.php">НСО, с.Боровое, пос. Нептун</a>
 				</div>
 			</div>
 

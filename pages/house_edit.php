@@ -1,12 +1,6 @@
 <?session_start();?>
 <?php
-require('php_misc/misc/config.php');
-require('php_misc/house/class_house.php');
-require('php_misc/rent/class_season.php');
-require('php_misc/house/call_house.php');
-include('sections/header.php');
-include('sections/sidebar.php');
-include('php_misc/rent/empl.php');
+ require('../main_connections.php');
 ?>
 <!-- content_body php_misc/house/edit_desc.php -->
 <div id="content_body">
@@ -66,7 +60,9 @@ include('php_misc/rent/empl.php');
   <?
 $seasons=Season::getList();
 foreach ($seasons as $season) {
+
   $a=false;
+  $ocupate[$i]=1;
 for ($i=0; $i <= count($ocupate) ; $i++) { 
 
 if ($ocupate[$i]==$season->season_id) {
@@ -101,7 +97,7 @@ if ($a){
             :
           </div>
           <div class="art__edit_season-right">
-          <div class="vacant"><a href="php_misc/rent/fake_rent.php?id=<?=$_GET['id']?>&season=<?=$season->season_id?>&testid=0?>" style="color:#fff;text-decoration: none;">Свободен</a></div>  
+          <div class="vacant"><a href="../modules/php_misc/rent/fake_rent.php?id=<?=$_GET['id']?>&season=<?=$season->season_id?>&testid=0?>" style="color:#fff;text-decoration: none;">Свободен</a></div>  
             <div class="div_for_payment_link"> <b style="margin:0 10px 0 0;">Процент:</b>
               <span class="cottage_price">
                <input class="cottage_percent-input" name="season_<?=$season->season_id?>" type="text" value="<?=$season->percent?>">
@@ -125,48 +121,30 @@ if ($a){
 <textarea name="edit_description" id="edit_description" class="edit_description" maxlength="5000"><?=$house->description?></textarea>
 </div> 
 </div>
-
       <!-- end art-postheader-title-main -->
       <hr class="clear" />
       <div class="btn-main">
-            <div class="btn-left"><button type="submit" name="submit" id="submit" formaction="php_misc/house/edit_desc.php?id=<?=$_GET['id']?>" alt="редактировать" value="0" class="admin__edit_house-button"/>редактировать</button></div>
+            <div class="btn-left"><button type="submit" name="submit" id="submit" formaction="../modules/php_misc/house/edit_desc.php?id=<?=$_GET['id']?>" alt="редактировать" value="0" class="admin__edit_house-button"/>редактировать</button></div>
             <div class="btn-right"><button  name="submit" id="view" formaction="house.php?id=<?=$_GET['id']?>" alt="Просмотреть" value="0" class="admin__edit_house-button"/>Просмотреть</button></div>
             </div>
       </div>
-
     </div>
-
       <!-- end art-article art-post -->
     </div>
-
-
 <!-- art-postcontent -->
     <div class="art-postcontent">
-
       <div class="house_description">
-
 <!--         <span class="house_description-text">
 
           </span> -->
-
-
       </div>
 <hr class="clear" />
-
-
-
     <!--end art-postcontent -->
 </div>
-
-
 <!--end  art-layout-cell art-content clearfix-->
 </div>
   </form>
 <!--end  content_body-->
 </div>
-
 <hr class="clear" />
-
-<?
-include('sections/footer.php');
-?>
+<?include('../modules/footer.php');?>
