@@ -78,7 +78,7 @@ foreach ($orders as $order) {
                       </button>
                   </div> 
                     <div class="order_form-btn_right">
-                        <button name="submit" id="submit" formaction="php_misc/rent/delete.php" alt="Удалить заказ" value="0" class="booking-button"/>
+                        <button name="submit" id="submit" formaction="../modules/php_misc/rent/delete.php" alt="Удалить заказ" value="0" class="booking-button"/>
                         удалить заказ
                         </button>
                     </div> 

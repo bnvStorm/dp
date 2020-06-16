@@ -1,6 +1,7 @@
 <?php
 //Подключение БД
-require('../misc/config.php');
+// require('../misc/config.php');
+require('../main_connections.php');
 //Объявляем переменные
 
   if (isset($_POST['house_choice'])) {$house_id=$_POST['house_choice'] ;}
