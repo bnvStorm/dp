@@ -1,7 +1,7 @@
 <?php
 //Подключение БД
-// require('../misc/config.php');
-require('../main_connections.php');
+require('../../../modules/event_handler/misc/config.php');
+
 //Объявляем переменные
 
   if (isset($_POST['house_choice'])) {$house_id=$_POST['house_choice'] ;}
@@ -74,6 +74,6 @@ $message = "Этот номер телефона уже используется
               $message = "Заполните ВСЕ поля!";
           }
       }
-header('Location: http://dp/basket.php');
+header('Location: http://dp/pages/basket.php');
    // echo "'$house_id',<br>'$house_id',<br>'$date_rent',<br>'$season_id',<br>'$price',<br>'$phone',<br>'$fnp',<br>'$additionally'";   
 ?>

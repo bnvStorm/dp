@@ -21,5 +21,5 @@ VALUES ('$fio','$iin','$tn','$id')");
 mysql_query("INSERT INTO `ORDERS`(price,dn,dk,iin,id,orders_id,n_house)
 VALUES ('$price','$dn','$dk','$iin','$id',$orders_id,'$n_house')");
 
-header('Location: http://neptun/basket.php');
+header('Location: http://dp/pages/basket.php');
 ?>

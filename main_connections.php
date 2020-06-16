@@ -1,6 +1,7 @@
 <?php
+include('modules/header.php');
 	require('modules/event_handler/misc/config.php');
-	include('modules/header.php');
+	
 	include('pages/sections/sidebar.php');
 	require('modules/event_handler/misc/config.php');
 	require('modules/php_misc/house/class_house.php');

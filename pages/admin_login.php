@@ -1,8 +1,9 @@
 <?php
 session_start();
 require('../main_connections.php');
+  // require('../modules/event_handler/misc/config.php');
 if (isset($_SESSION["session_username"])) {
-    header("Location: /admin.php");
+    header('Location: http://dp/pages/admin.php',true, 301);
     die;}
 require('../modules/event_handler/login/login_action.php');
 ?>

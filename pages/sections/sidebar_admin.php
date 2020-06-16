@@ -33,7 +33,7 @@ else
 {
 
     // Если не пусты, то мы выводим ссылку
-    echo "<div class="."login_text".">Вы вошли на сайт, как </div><div class="."session_name-stile"."> ".$_SESSION['session_username']."</div> <div class="."logout_btn"."><a href='logout.php'>Выход</a></div>";
+    echo "<div class="."login_text".">Вы вошли на сайт, как </div><div class="."session_name-stile"."> ".$_SESSION['session_username']."</div> <div class="."logout_btn"."><a href='../modules/event_handler/logout.php'>Выход</a></div>";
 }
 ?>
     

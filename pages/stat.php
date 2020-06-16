@@ -115,12 +115,12 @@ foreach ($houses as $house){
         ?> 
         </div>
     </section> 
-    <!--<section id="content-tab4">
+    <section id="content-tab4">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
-        <input hidden="true" type="text" name="season" id="season" value="3"> 
+        <input hidden="true" type="text" name="season3" id="season3" value="3"> 
             <?
-        $orders=Order::getSumS($_GET['number_house'],$_GET['season']);
+        $orders=Order::getSumS($_GET['number_house'],$_GET['season3']);
         foreach ($orders as $order) {
         ?>
        <span><?=$order->sum?> тг</span>
@@ -132,9 +132,9 @@ foreach ($houses as $house){
     <section id="content-tab5">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
-        <input hidden="true" type="text" name="season" id="season" value="4"> 
+        <input hidden="true" type="text" name="season4" id="season4" value="4"> 
             <?
-        $orders=Order::getSumS($_GET['number_house'],$_GET['season']);
+        $orders=Order::getSumS($_GET['number_house'],$_GET['season4']);
         foreach ($orders as $order) {
         ?>
        <span><?=$order->sum?> тг</span>
@@ -146,9 +146,9 @@ foreach ($houses as $house){
     <section id="content-tab6">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
-        <input hidden="true" type="text" name="season" id="season" value="5"> 
+        <input hidden="true" type="text" name="season5" id="season5" value="5"> 
             <?
-        $orders=Order::getSumS($_GET['number_house'],$_GET['season']);
+        $orders=Order::getSumS($_GET['number_house'],$_GET['season5']);
         foreach ($orders as $order) {
         ?>
        <span><?=$order->sum?> тг</span>
@@ -160,9 +160,9 @@ foreach ($houses as $house){
     <section id="content-tab7">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
-        <input hidden="true" type="text" name="season" id="season" value="6"> 
+        <input hidden="true" type="text" name="season6" id="season6" value="6"> 
             <?
-        $orders=Order::getSumS($_GET['number_house'],$_GET['season']);
+        $orders=Order::getSumS($_GET['number_house'],$_GET['season6']);
         foreach ($orders as $order) {
         ?>
        <span><?=$order->sum?> тг</span>
@@ -174,9 +174,9 @@ foreach ($houses as $house){
     <section id="content-tab8">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
-        <input hidden="true" type="text" name="season" id="season" value="7"> 
+        <input hidden="true" type="text" name="season7" id="season7" value="7"> 
             <?
-        $orders=Order::getSumS($_GET['number_house'],$_GET['season']);
+        $orders=Order::getSumS($_GET['number_house'],$_GET['season7']);
         foreach ($orders as $order) {
         ?>
        <span><?=$order->sum?> тг</span>
@@ -188,9 +188,9 @@ foreach ($houses as $house){
         <section id="content-tab9">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
-        <input hidden="true" type="text" name="season" id="season" value="8"> 
+        <input hidden="true" type="text" name="season8" id="season8" value="8"> 
             <?
-        $orders=Order::getSumS($_GET['number_house'],$_GET['season']);
+        $orders=Order::getSumS($_GET['number_house'],$_GET['season8']);
         foreach ($orders as $order) {
         ?>
        <span><?=$order->sum?> тг</span>
@@ -202,16 +202,16 @@ foreach ($houses as $house){
         <section id="content-tab10">
         <div class="form__stat-sumwrite">
         <span class="form__stat-maintxt">Прибыль:</span> 
-        <input hidden="true" type="text" name="season" id="season" value="9"> 
+        <input hidden="true" type="text" name="season9" id="season9" value="9"> 
             <?
-        $orders=Order::getSumS($_GET['number_house'],$_GET['season']);
+        $orders=Order::getSumS($_GET['number_house'],$_GET['season9']);
         foreach ($orders as $order) {
         ?>
        <span><?=$order->sum?> тг</span>
         <?
         }
         ?> 
-        </div> -->
+        </div> 
     </section>    
 </div> 
 </div>

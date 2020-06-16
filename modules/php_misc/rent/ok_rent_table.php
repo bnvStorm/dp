@@ -1,5 +1,5 @@
 <?php
-          require('php_misc/misc/config.php');
+require('../../../modules/event_handler/misc/config.php');
           $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
           $sql = "SELECT * FROM orders_accepted";
           $st = $conn->prepare( $sql );

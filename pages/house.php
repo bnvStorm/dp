@@ -113,7 +113,7 @@ if ($a){
           </div>
         </div>
           <div class="house_info_right">
-         <div class="house__info-goodbtn"><a href="rent.php?id=<?=$_GET['id']?>&season=<?=$season->season_id?>&testid=0">Заказать</a></div>
+         <div class="house__info-goodbtn"><a href="rent.php?id=<?=$_GET['id']?>&season=<?=$season->season_id?>&testid=1">Заказать</a></div>
         </div>
       </div>
 <?}?>

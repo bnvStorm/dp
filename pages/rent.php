@@ -9,7 +9,7 @@
       <p>Для выбора просмотра информации о домиках, посетите <a href="housesCatalog.php">каталог</a> </p>
     </div>
     <div class="rent_wrapper">
-      <form  class="rent_form" action="php_misc/rent/rent_action.php" method="POST">
+      <form  class="rent_form" action="../modules/php_misc/rent/rent_action.php" method="POST">
         <div class="rent_title">
           <div class="h1__title">Бронирование</div>
         </div>
@@ -22,21 +22,25 @@
                   <select name="season_choice" id="season_choice" >
 <?
 if ($_GET['testid']==1) {
-$step=0;
-$select='';
-$seasons=Season::getList();
-foreach ($seasons as $season) 
-{
-  if (($step+1)==$_GET['season']) { $select='selected'; }
+  $step=0;
+  $select='';
+  $seasons=Season::getList();
+  foreach ($seasons as $season) 
+  {
+      if (($step+1)==$_GET['season']) { $select='selected'; }
+    ?>
+
+    <option  <?=$select?> value="<?=$season->season_id?>" >Сезон <?=$season->season_id?> <?=$season->season_name?></option>; 
+
+    <?
+    $select='';
+    $step++;
+  }
+}else{
+
+
 ?>
 
-<option  <?=$select?> value="<?=$season->season_id?>" >Сезон <?=$season->season_id?> <?=$season->season_name?></option>; 
-
-<?
-$select='';
-$step++;
-}
-}else{?>
 <option selected value="<?=$season->season_id?>" >Сезон <?=$season->season_id?> <?=$season->season_name?></option>
 
  <?
@@ -65,7 +69,7 @@ $step++;
               <div class="right_form-house_choice">
                 <select name="house_choice" id="house_choice">
 <?
-if ($_GET['testid']==1) {
+if ($_GET['testid']==0) {
 $step=0;
 $select='';
 $houses=House::getList();
