@@ -8,9 +8,9 @@
                         <li>
                             <a href="../pages/housesCatalog.php">Домики</a>
                         </li>
-                        <li>
+            <!--             <li>
                             <a href="../pages/contacts.php">Контакты</a>
-                        </li>
+                        </li> -->
 
           <li class="stick"></li>
         </ul>

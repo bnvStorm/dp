@@ -5,6 +5,7 @@
 	<link href="../style/css/main.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../style/css/styles-carousel.css"> <!-- подключаем стилевой файл -->
 	<link rel="shortcut icon" href="../style/images/ico/inst.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../style/css/site.addons.css">
 </head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- подключаем последнюю версию jQuery -->
 <script type="text/javascript" src="../style/js/carousel.js"></script>  <!-- подключаем наш скрипт -->
